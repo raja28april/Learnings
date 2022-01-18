@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "types": [
+            "node",
+            "webdriverio/sync",
+            "@wdio/mocha-framework"
+        ]
+    },
+    "include": [
+        "**/*.js",
+        "**/*.json",
+        "webdriverio/sync",
+        "@wdio/mocha-framework"
+    ]
+}
