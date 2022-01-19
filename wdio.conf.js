@@ -21,7 +21,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/*.js'
+        './test/specs/eCommerce/loginTest.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -43,7 +43,7 @@ exports.config = {
     // and 30 processes will get spawned. The property handles how many capabilities
     // from the same test should run tests.
     //
-    maxInstances: 10,
+    maxInstances: 3,
     //
     // If you have trouble getting all important capabilities together, check out the
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
@@ -70,7 +70,7 @@ exports.config = {
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: 'silent',
+    logLevel: 'info',
     //
     // Set specific log levels per logger
     // loggers:
