@@ -9,10 +9,10 @@ let credentials = JSON.parse(fs.readFileSync('test/specs/eCommerce/test-data/tes
 
 describe('Ecommerce Application', () => {
     credentials.forEach(({ username, password })=> {
-        it('E2E test', () => {
+        it('E2E test - smoke', () => {
 
             var products = ['Blackberry', 'Nokia Edge'];
-            browser.url('https://rahulshettyacademy.com/loginpagePractise/');
+            browser.url('/loginpagePractise/');
             console.log("trying with username:" + username+" and password: "+password);
             loginPage.login(username, password);
             // console.log(loginPage.alert.getText() + " is the text I am seeing on the screen");
