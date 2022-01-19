@@ -27,7 +27,7 @@ exports.config = {
     // suites
     suites: {
         e2e:['test/specs/eCommerce/e2eTest.js']
-    }
+    },
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -161,7 +161,8 @@ exports.config = {
     // See the full list at http://mochajs.org/
     mochaOpts: {
         ui: 'bdd',
-        timeout: 60000
+        timeout: 60000,
+        grep:'smoke',
     },
     //
     // =====
