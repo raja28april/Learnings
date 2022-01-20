@@ -8,4 +8,8 @@
  - npx wdio run wdio.conf.js --suite suiteName
  # toRunIndividualSpecFiles
 - run the command -> npx wdio run wdio.conf.js --spec relativePathOfSpecFile
+# pending tasks for framework
+- adding pre commit hooks 
+- configuring with cicd tool
+- running scripts inside docker
 
