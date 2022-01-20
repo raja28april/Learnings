@@ -6,3 +6,6 @@
  # toRunSuite
  - add the test file's relative path with suite name and run using below command
  - npx wdio run wdio.conf.js --suite suiteName
+ # toRunIndividualSpecFiles
+- run the command -> npx wdio run wdio.conf.js --spec relativePathOfSpecFile
+
